@@ -8,4 +8,5 @@
 
 
 
-console.log("sejal");
+
+console.log("sejal");                 // prints "sejal"
