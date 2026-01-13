@@ -900,3 +900,5 @@ let key = "marks";
 let report = {
 [key]: 89
 };
+
+//javascript part 1 notes
