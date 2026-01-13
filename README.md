@@ -902,3 +902,23 @@ let report = {
 };
 
 //javascript part 1 notes
+
+/* how to run js command :---
+
+ Using Node.js (BEST & MOST COMMON)
+JavaScript can run directly from the terminal.
+Steps:
+
+Install Node.js
+👉 https://nodejs.org
+ (LTS version)
+
+Create a file:
+test.js
+Write JS code:
+console.log("Hello JavaScript");
+
+
+Run in terminal / cmd:
+node test.js
+  */
