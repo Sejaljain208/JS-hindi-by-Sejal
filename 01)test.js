@@ -16,3 +16,4 @@ console.log("hello " + name);            // hello sejal
 console.log(`hello ${name}`);            // hello sejal
 
 // template literal me hum ${} ka use kar sakte hai variable ko print karne ke liye.isse quotes ke andar hi variable ka use kar sakte hai .
+
