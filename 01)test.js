@@ -6,6 +6,13 @@
 // how to run js file: click on run button on top right corner.
 // shortcut to run js file: ctrl + alt + n
 
-
-
+//to print anything use console.log("printing part ")
 console.log("sejal");
+
+// to take user input : agar user se input lena ho to prompt use karte hai , prompt shirf browser me hi kaam karta hai node js me nahi karega ...apko browser ko inspect karna padega (F12) and console me dekhna padega.
+
+let name = prompt("enter your name");    //sejal
+console.log("hello " + name);            // hello sejal 
+console.log(`hello ${name}`);            // hello sejal
+
+// template literal me hum ${} ka use kar sakte hai variable ko print karne ke liye.isse quotes ke andar hi variable ka use kar sakte hai .
