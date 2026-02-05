@@ -900,25 +900,70 @@ let key = "marks";
 let report = {
 [key]: 89
 };
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-//javascript part 1 notes
+🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳
+part 2 : DOM  
+JavaScript DOM (Document Object Model)
+What is DOM?
+The Document Object Model (DOM) is a programming interface that allows JavaScript to access and manipulate HTML elements of a webpage.
+When a browser loads an HTML page, it converts the page into a tree structure called the DOM Tree.
 
-/* how to run js command :---
+DOM Tree Structure
+The browser represents HTML elements like a hierarchy:
+Document
+ └── html
+     ├── head
+     └── body
+         ├── h1
+         └── p
+JavaScript uses this structure to modify the webpage dynamically.
+---------------------------------------------------------------------------------------------------->
+1)Selecting Elements
+Before changing anything, elements must be selected.
 
- Using Node.js (BEST & MOST COMMON)
-JavaScript can run directly from the terminal.
-Steps:
+document.getElementById("id");
+document.getElementsByClassName("class");
+document.getElementsByTagName("tag");
+document.querySelector("selector");
+document.querySelectorAll("selector");
+---------------------------------------------------------------------------------------------------->
+2)Text / Content Access
+Used to read or update text or HTML content.
 
-Install Node.js
-👉 https://nodejs.org
- (LTS version)
+element.innerText
+element.textContent
+element.innerHTML
 
-Create a file:
-test.js
-Write JS code:
-console.log("Hello JavaScript");
+Example:
+heading.innerText = "Hello World";
+----------------------------------------------------------------------------------------------------->
+3)Attribute Manipulation
+Manage attributes like id, class, src, href, etc.
+
+element.getAttribute("name");
+element.setAttribute("name", "value");
+element.removeAttribute("name");
+---------------------------------------------------------------------------------------------------->
+4)Dynamic DOM Manipulation
+Create, add, or remove elements dynamically.
+
+document.createElement("tag");
+parent.appendChild(element);
+parent.prepend(element);
+parent.removeChild(element);
+--------------------------------------------------------------------------------------------------->
+5)Style Updates
+Direct Style
+element.style.color = "red";
+element.style.backgroundColor = "yellow";
+
+Using ClassList
+element.classList.add("className");
+element.classList.remove("className");
+element.classList.toggle("className");
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 
-Run in terminal / cmd:
-node test.js
-  */
+
