@@ -917,7 +917,7 @@ let key = "marks";
 let report = {
 [key]: 89
 };
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳🤩🤩🥳🥳🥳
@@ -936,8 +936,8 @@ Document
          ├── h1
          └── p
 JavaScript uses this structure to modify the webpage dynamically.
----------------------------------------------------------------------------------------------------->
-1)Selecting Elements
+
+------------------>1)Selecting Elements
 Before changing anything, elements must be selected.
 
 document.getElementById("id");
@@ -945,33 +945,32 @@ document.getElementsByClassName("class");
 document.getElementsByTagName("tag");
 document.querySelector("selector");
 document.querySelectorAll("selector");
----------------------------------------------------------------------------------------------------->
-2)Text / Content Access
-Used to read or update text or HTML content.
 
+-------------------->2)Text / Content Access
+Used to read or update text or HTML content.
 element.innerText
 element.textContent
 element.innerHTML
 
 Example:
 heading.innerText = "Hello World";
------------------------------------------------------------------------------------------------------>
-3)Attribute Manipulation
+
+---------------------->3)Attribute Manipulation
 Manage attributes like id, class, src, href, etc.
 
 element.getAttribute("name");
 element.setAttribute("name", "value");
 element.removeAttribute("name");
----------------------------------------------------------------------------------------------------->
-4)Dynamic DOM Manipulation
+
+--------------------->4)Dynamic DOM Manipulation
 Create, add, or remove elements dynamically.
 
 document.createElement("tag");
 parent.appendChild(element);
 parent.prepend(element);
 parent.removeChild(element);
---------------------------------------------------------------------------------------------------->
-5)Style Updates
+
+------------------------->5)Style Updates
 Direct Style
 element.style.color = "red";
 element.style.backgroundColor = "yellow";
@@ -980,7 +979,7 @@ Using ClassList
 element.classList.add("className");
 element.classList.remove("className");
 element.classList.toggle("className");
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 
 
 
