@@ -1,8 +1,25 @@
 # JS-hindi-by-Sejal
 A code repo for Javascript series 
 
-Chapter 1: Variables & Declarations
+//
+1. Run JavaScript in Browser (Most Common)
+Steps
+Create a file index.html
+Write JS inside <script> tag OR link JS file.
+Open HTML file in browser.
 
+Open html file → Right Click → Inspect → Console → Output dikhega.
+
+2. Run JavaScript using Console Directly
+Fast esting ke liye.
+Steps
+Open any website.
+Right Click → Inspect.
+Go to Console Tab.
+//
+
+Chapter 1: Variables & Declarations
+Example (Internal JS)
 (JavaScript – Learn Everything Serie )
 
 🧠 What are Variables?
