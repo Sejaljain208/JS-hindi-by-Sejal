@@ -955,7 +955,7 @@ element.innerHTML
 Example:
 heading.innerText = "Hello World";
 
-)Attribute Manipulation
+3)Attribute Manipulation
 Manage attributes like id, class, src, href, etc.
 
 element.getAttribute("name");
